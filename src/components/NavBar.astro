@@ -1,0 +1,36 @@
+---
+import "../styles/global.css";
+import "../styles/button.css";
+import Hamburger from "./Hamburger.astro";
+---
+
+<header>
+  <nav
+    id="navbar"
+    class="w-full border-b border-gray-700 py-8 lg:py-12 px-10 lg:px-20 grid grid-cols-3 gap-4 bg-mainBlack-500"
+  >
+    <div class="justify-self-start self-center col-span-2 md:col-span-1">
+      <a href="/">
+        <img src="/icons/Logo-Dark.svg" class="h-8 md:h-16" />
+      </a>
+    </div>
+    <div class="hidden md:block justify-self-center self-center">
+      <ul class="flex gap-8 text-lg text-white">
+        <li class="cursor-pointer hidden md:block text-button-links">
+          <a href="/about">Our Story</a>
+        </li>
+        <li class="text-gray-500">/</li>
+        <li class="cursor-pointer text-button-links">
+          <a href="/business">Businesses</a>
+        </li>
+        <li class="text-gray-500">/</li>
+        <li class="cursor-pointer text-button-links">
+          <a href="/Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="justify-self-end self-center">
+      <button class="nav-bar-cta hover:button-hover">Notify Me!</button>
+    </div>
+  </nav>
+</header>

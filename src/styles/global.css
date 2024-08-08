@@ -1,19 +1,25 @@
 @font-face {
-    font-family: 'DMSans';
-    src: url('/fonts/DMSans.ttf');
+  font-family: "DMSans";
+  src: url("/fonts/DMSans.ttf");
 }
 
 @font-face {
-    font-family: 'AnonymousPro';
-    src: url('/fonts/AnonymousPro-Regular.ttf');
+  font-family: "AnonymousPro";
+  src: url("/fonts/AnonymousPro-Regular.ttf");
 }
 
-body{
-    font-family: 'DMSans';
-    color: white
+body {
+  font-family: "DMSans";
 }
 
-.gradient-background {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-    /* background-image: linear-gradient(to right, #DECBA4, #3E5151); */
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
 }
