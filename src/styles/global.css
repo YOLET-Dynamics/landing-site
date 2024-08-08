@@ -11,15 +11,3 @@
 body {
   font-family: "DMSans";
 }
-
-.hamburger {
-  cursor: pointer;
-}
-
-.hamburger .line {
-  display: block;
-  width: 30px;
-  height: 2px;
-  margin-bottom: 10px;
-  background-color: #ffffff;
-}
