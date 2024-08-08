@@ -35,7 +35,6 @@ if (Astro.request.method === "POST") {
     });
     if (response.ok) {
       console.log("You'll be notified when we're ready!");
-      return Astro.redirect("/")
     } else {
       console.log("Failed to submit form!");
     }
