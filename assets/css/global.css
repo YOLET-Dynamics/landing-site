@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans.ttf");
+}
+
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("../fonts/AnonymousPro-Regular.ttf");
+}
+
+.dm-font {
+  font-family: "DMSans";
+}
+
+.icon-rm-mg {
+  margin-bottom: 0 !important;
+}
