@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Home | YOLET Industries</Title>
+    <Title>Home | YOLET Dynamics</Title>
     <Meta name="description" content="Building Legacies" />
   </Head>
   <div class="h-screen flex flex-col justify-between bg-mainBlack-500 dm-font">
